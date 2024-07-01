@@ -1,13 +1,14 @@
 Class {
-	#name : #BaselineOfGttest,
+	#name : #BaselineOfGtt,
 	#superclass : #BaselineOf,
 	#category : #BaselineOfGttest
 }
 
 { #category : #baseline }
-BaselineOfGttest >> baseline: spec [
+BaselineOfGtt >> baseline: spec [
 	<baseline>
 		^ spec for: #common do: [
-			spec package: 'Gttest'
+			spec package: 'Gtt'.
+			spec package: 'Gtt'
 		]
 ]
