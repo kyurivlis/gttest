@@ -1,7 +1,7 @@
 Class {
 	#name : #BaselineOfGtt,
 	#superclass : #BaselineOf,
-	#category : #BaselineOfGttest
+	#category : #BaselineOfGtt
 }
 
 { #category : #baseline }
